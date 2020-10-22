@@ -28,6 +28,7 @@ body {
     text-transform: uppercase;
     color: #fff;
 }
+
 .tictactoe {
     width: 550px;
     height: 550px;
@@ -50,6 +51,7 @@ body {
     margin: .5rem 0rem;
     top: 13%;
 }
+
 .block {
     width: 32.5%;
     height: 32.5%;
@@ -108,3 +110,93 @@ a:hover {
 .buttons {
     align-content: center;
 }
+
+.vs {
+    background-color: cadetblue;
+    font-size: 20px;
+    color: #fff;
+    width: 200px;
+    height: 45px;
+    align-self: center;
+    justify-self: center;
+    margin: 9px 7px 0 7px;
+    transform: translate(45%, -17%);
+    cursor: pointer;
+    border-radius: 0px;
+    display: block;
+    padding: 2px 7px;
+}
+
+.alert {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    z-index: 99;
+    background-color: burlywood;
+    transform: translate(-50%, -17%);
+    display: none;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+}
+
+#gamestart {
+    width: 100%;
+    font-size: 40px;
+    z-index: 99;
+    color: rgb(247, 247, 247);
+    display: none;
+    text-align: center;
+    padding-top: 68px;
+}
+#gameover {
+    width: 100%;
+    font-size: 40px;
+    z-index: 99;
+    color: rgb(247, 247, 247);
+    display: none;
+    text-align: center;
+    padding-top: 2rem;
+}
+#playerWon {
+    color:  cadetblue;
+}
+.winning {
+    width: 100%;
+    font-size: 40px;
+    z-index: 99;
+    color: rgb(247, 247, 247);
+    display: none;
+    text-align: center;
+    padding-top: 68px;
+
+}
+
+.startover:hover,
+.vs:hover {
+    background-color: rgb(3, 133, 138);
+    color: #fff;
+}
+
+.intro {
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0;         
+    color: rgb(247, 247, 247);
+    display: none;
+    font-weight: 600;
+}
+.intro .introText {
+    margin: 1rem 0;
+}
+
+.text{
+    font-size: 11px;
+    margin: 0;
+}
+
